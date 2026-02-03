@@ -2,7 +2,7 @@
 
 <img width="2752" height="1394" alt="github_cover" src="https://github.com/user-attachments/assets/9d83cad8-ec19-48ae-83f0-df0854c731fc" />
 
-PyTorch implementation for our paper [RecGOAT].
+PyTorch implementation for our paper [RecGOAT: Graph Optimal Adaptive Transport for LLM-Enhanced Multimodal Recommendation with Dual Semantic Alignment](https://arxiv.org/abs/2602.00682).
 
 [Yuecheng Li](https://scholar.google.com/citations?user=t73_KbYAAAAJ), [Hengwei Ju](https://openreview.net/profile?id=~Hengwei_Ju1), [Zeyu Song](https://openreview.net/profile?id=~Ze-Yu_Song2), [Wei Yang](https://weiyang930.github.io/), [Chi Lu](https://scholar.google.com/citations?user=SrvT0voAAAAJ), [Peng Jiang](https://scholar.google.com/citations?hl=en&user=9o5swhQAAAAJ), and [Kun Gai](https://scholar.google.com/citations?user=PXO4ygEAAAAJ).
 
