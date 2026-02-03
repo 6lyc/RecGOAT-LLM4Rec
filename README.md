@@ -23,7 +23,7 @@ We propose RecGOAT, a novel yet simple dual semantic alignment framework for LLM
 ## 📢 News  
 
 
-- [x] [2026.02.02] 🔥🔥 The full paper of our RecGOAT will be available soon.
+- [x] [2026.02.03] 🔥🔥 The full paper of our RecGOAT is available at [RecGOAT](https://arxiv.org/abs/2602.00682).
 
 
 ## 👉 TODO 
