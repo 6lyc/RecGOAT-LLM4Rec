@@ -29,7 +29,18 @@ We propose RecGOAT, a novel yet simple dual semantic alignment framework for LLM
 ## 👉 TODO 
 
 - [ ] Release the code of RecGOAT.
+
 - [ ] ...
-
-
+      
 -----------
+
+## Citation  
+
+```BibTex
+@article{li2026recgoat,
+  title={RecGOAT: Graph Optimal Adaptive Transport for LLM-Enhanced Multimodal Recommendation with Dual Semantic Alignment},
+  author={Li, Yuecheng and Ju, Hengwei and Song, Zeyu and Yang, Wei and Lu, Chi and Jiang, Peng and Gai, Kun},
+  journal={arXiv preprint arXiv:2602.00682},
+  year={2026}
+}
+```
