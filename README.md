@@ -22,18 +22,40 @@ We propose RecGOAT, a novel yet simple dual semantic alignment framework for LLM
 
 ## 📢 News  
 
+- [x] [2026.08.23] 🔥🔥 The codebase of our **RecGOAT** is available!
 
 - [x] [2026.02.03] 🔥🔥 The full paper of our **RecGOAT** is available at [arXiv](https://arxiv.org/abs/2602.00682).
+      
 
+## Dependence
+
+To install the dependencies: 
+
+```sh
+pip install -r requirements.txt
+```
+
+## Usage and Hyperparameter
+
+```bash
+# Baby
+CUDA_VISIBLE_DEVICES=0 python -u main.py --dataset baby_raw --model lgn_mm --use_multimodal 1 --text_feat ./data/baby_raw/text_feat.npy --image_feat ./data/baby_raw/image_feat.npy --item_knn_k 20 --item_branch_layers 1 --epochs 1000 --recdim 800 --layer 3 --lr 8e-4 --bpr_batch 4096 --topks "[10]" --fusion oat --contrastive_weight 0.032 > ./baby.log 2>&1 &
+
+# Sports
+CUDA_VISIBLE_DEVICES=0 python -u main.py --dataset sports_raw --model lgn_mm --use_multimodal 1 --text_feat ./data/sports_raw/text_feat.npy --image_feat ./data/sports_raw/image_feat.npy --item_knn_k 30 --item_branch_layers 1 --epochs 1000 --recdim 600 --layer 3 --lr 8e-4 --bpr_batch 4096 --topks "[10]" --fusion oat --contrastive_weight 0.005 > ./sports.log 2>&1 &
+
+# Electronics
+CUDA_VISIBLE_DEVICES=0 python -u main.py --dataset electronics --model lgn_mm --use_multimodal 1 --text_feat ./data/electronics_raw/text_feat.npy --image_feat ./data/electronics_raw/image_feat.npy --item_knn_k 20 --item_branch_layers 1 --epochs 2000 --recdim 200 --layer 3 --lr 8e-4 --bpr_batch 4096 --topks "[10]" --fusion oat --contrastive_weight 0.05 > ./electronics.log 2>&1 &
+```
 
 ## 👉 TODO 
 
-- [ ] Release the code of RecGOAT.
+- [x] Release the code of RecGOAT.
+
+- [ ] Release the LLM-enhanced multimodal data of RecGOAT.
 
 - [ ] ...
       
------------
-
 ## Citation  
 
 ```BibTex
