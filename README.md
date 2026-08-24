@@ -13,7 +13,7 @@ PyTorch implementation for our paper [RecGOAT: Graph Optimal Adaptive Transport 
 -----------
 
 <p align="center">
-<img width="1021" height="494" alt="image" src="https://github.com/user-attachments/assets/033ff33b-a735-4de2-bbe1-04e8dd45de23" />
+<img width="1642" height="793" alt="frmaework" src="https://github.com/user-attachments/assets/fdc997cf-efd2-42bf-8136-40d1459d9b63" />
 </p>
 
 We propose RecGOAT, a novel yet simple dual semantic alignment framework for LLM-enhanced multimodal recommendation, which offers theoretically guaranteed alignment capability. RecGOAT first employs graph attention networks to enrich collaborative semantics by modeling item-item, user-item, and user-user relationships, leveraging user/item LM representations and interaction history. Furthermore, we design a dual-granularity progressive multimodality-ID alignment framework, which achieves instance-level and distribution-level semantic alignment via cross-modal contrastive learning (CMCL) and optimal adaptive transport (OAT), respectively.
